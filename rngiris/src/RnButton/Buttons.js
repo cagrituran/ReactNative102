@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
-import {Button,Alert,Image,StyleSheet,Text,View} from 'react-native';
+import {Button,Alert,StyleSheet,View} from 'react-native';
 
 export default class Buttons extends Component {
     onPressButton(){

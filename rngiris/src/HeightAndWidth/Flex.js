@@ -1,7 +1,8 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
-import {StyleSheet,Text,View} from 'react-native';
+import {StyleSheet,View} from 'react-native';
 
 export default class Flex extends Component {
   render() {
@@ -14,7 +15,7 @@ export default class Flex extends Component {
       );
   }
 }
-const styles=StyleSheet.create({
+const styles = StyleSheet.create({
     container:{
         flex:1,
     },
